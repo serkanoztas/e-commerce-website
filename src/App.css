@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbartitle {
+    margin: auto;
+    cursor: pointer;
+}
+
+#devilLogo {
+    font-size: 60px;
+
+}
+
+.navbar h2:hover {
+    color: red;
+}
+
+.navbar-signout:hover {
+    color: #ff0000;
+}
+
+.register-main {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.register-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.register-input {
+    margin-bottom: 20px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.register-button {
+    padding: 7px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+}
+
+.errors {
+    color: red;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.product-details {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 9;
+}
+
+.product-main {
+    box-shadow: 1px 4px 3px lightgray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.product-main img {
+    width: 200px;
+    height: 250px;
+}
+
+.product-price {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin: auto;
+}
+
+.product-button {
+    padding: 10px;
+    color: #fff;
+    background-color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+
+}
+
+.product-button:hover {
+    background-color: red;
+}
+
+.sidebar-main {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    width: 200px;
+    flex: 1;
+    height: auto;
+    align-self: stretch;
+}
+
+.sidebar-checks {
+    margin: 20px;
+}
+
+.sidebar-checks input {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.Details-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.Details-main-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.Details-main-children h2 {
+    margin-bottom: 50px;
+}
+
+.Details-main-children h1 {
+    margin: 30px;
+}
+
+.Details-main-children button {
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.Drawer-main {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.Drawer-img {
+    width: 100px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.Drawer-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.count {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.Drawer-button {
+    color: cornflowerblue;
+    background-color: #fff;
+    width: 80px;
+    border: 1px solid cornflowerblue;
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Drawer-button:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.navbarinput {
+    width: 300px;
+    margin-right: 100px;
+}
+
+@media(max-width:995px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .register-main {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        background-color: transparent;
+        align-items: center;
+        box-shadow: 1px 1px 5px 1px;
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+
+    .register-title {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .register-input {
+        width: 150px;
+        border: none;
+        border-bottom:  1px solid black;
+        padding: 5px;
+    }
+
+    .register-button {
+        padding: 5px;
+        width: 150px;
+        font-size: 10px;
+    }
+
+
+    .navbar {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    #devilLogo {
+        display: none;
+
+    }
+
+    #navbartitle {
+        font-size: 18px;
+        margin-left: 10px
+    }
+
+    .basketAvatar {
+        font-size: 25px;
+    }
+
+    .navbar input {
+        box-sizing: border-box;
+        width: 100px;
+        margin-right: 20px;
+        padding: 0;
+    }
+
+    .navbar-signout {
+        font-size: 15px;
+    }
+
+    .sidebar-main {
+        width: 100px;
+    }
+
+    .sidebar-main label {
+        font-size: small;
+    }
+
+    .sidebar-checks {
+        margin: 10px;
+    }
+
+    .sidebar-checks input {
+        transform: scale(1.2);
+    }
+
+    .product-main {
+        width: 120px;
+        height: 400px;
+    }
+
+    .product-main img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .title {
+        font-size: medium;
+    }
+
+    .product-main p {
+        font-size: small;
+    }
+
+    .product-price {
+        font-size: medium;
+    }
+
+    .product-button {
+        padding: 5px;
+        width: 50px;
+
+    }
+
+    .Details-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .Details-main img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Details-main-children {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .Details-main-children h2 {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .Details-main-children h1 {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .Details-main-children button {
+        width: 200px;
+    }
+
+    .Drawer-main {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        justify-content: space-between;
+        margin-top: 50px;
+        border-bottom: 1px solid gray;
+
+    }
+
+    .Drawer-img {
+        width: 70px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .Drawer-details {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+
+    }
+
+    .count {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .Drawer-details p {
+        display: none;
+    }
+
+    .Drawer-button {
+        width: 70px;
+        font-size: small;
+        padding: 5px;
+    }
+}
