@@ -32,4 +32,4 @@ Bu proje frontend yeteneklerimi geliştirmek ve gerçek bir ürün mantığını
 
 ## 📸 Ekran Görüntüsü
 
-![E-Commerce Uygulaması](./src/eComss.png)
+![E-Commerce Uygulaması](./eComss.png)
